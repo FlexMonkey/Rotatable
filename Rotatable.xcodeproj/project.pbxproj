@@ -14,6 +14,8 @@
 		3E3CF9AC1BBD071E009FF78C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E3CF9AA1BBD071E009FF78C /* LaunchScreen.storyboard */; };
 		3E3CF9B71BBD071E009FF78C /* RotatableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3CF9B61BBD071E009FF78C /* RotatableTests.swift */; };
 		3E3CF9C21BBD071E009FF78C /* RotatableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3CF9C11BBD071E009FF78C /* RotatableUITests.swift */; };
+		3E3CF9D11BBD9CAE009FF78C /* Rotatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3CF9D01BBD9CAE009FF78C /* Rotatable.swift */; settings = {ASSET_TAGS = (); }; };
+		3E3CF9D31BBDB0E2009FF78C /* Rotatable.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E3CF9D21BBDB0E2009FF78C /* Rotatable.gif */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3E3CF9BD1BBD071E009FF78C /* RotatableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotatableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E3CF9C11BBD071E009FF78C /* RotatableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatableUITests.swift; sourceTree = "<group>"; };
 		3E3CF9C31BBD071E009FF78C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E3CF9D01BBD9CAE009FF78C /* Rotatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Rotatable.swift; path = rotatable/Rotatable.swift; sourceTree = "<group>"; };
+		3E3CF9D21BBDB0E2009FF78C /* Rotatable.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Rotatable.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		3E3CF9A01BBD071E009FF78C /* Rotatable */ = {
 			isa = PBXGroup;
 			children = (
+				3E3CF9D21BBDB0E2009FF78C /* Rotatable.gif */,
+				3E3CF9CF1BBD9C95009FF78C /* rotatable */,
 				3E3CF9A11BBD071E009FF78C /* AppDelegate.swift */,
 				3E3CF9A31BBD071E009FF78C /* ViewController.swift */,
 				3E3CF9A51BBD071E009FF78C /* Main.storyboard */,
@@ -123,6 +129,14 @@
 				3E3CF9C31BBD071E009FF78C /* Info.plist */,
 			);
 			path = RotatableUITests;
+			sourceTree = "<group>";
+		};
+		3E3CF9CF1BBD9C95009FF78C /* rotatable */ = {
+			isa = PBXGroup;
+			children = (
+				3E3CF9D01BBD9CAE009FF78C /* Rotatable.swift */,
+			);
+			name = rotatable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +245,7 @@
 				3E3CF9AC1BBD071E009FF78C /* LaunchScreen.storyboard in Resources */,
 				3E3CF9A91BBD071E009FF78C /* Assets.xcassets in Resources */,
 				3E3CF9A71BBD071E009FF78C /* Main.storyboard in Resources */,
+				3E3CF9D31BBDB0E2009FF78C /* Rotatable.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E3CF9A41BBD071E009FF78C /* ViewController.swift in Sources */,
+				3E3CF9D11BBD9CAE009FF78C /* Rotatable.swift in Sources */,
 				3E3CF9A21BBD071E009FF78C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
