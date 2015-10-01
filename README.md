@@ -1,5 +1,6 @@
 # Rotatable
 Swift Protocol Extension to Rotate any UIView
+_Companion project to this blog post: http://flexmonkey.blogspot.co.uk/2015/10/rotatable-swift-protocol-extension-to.html_
 
 ![Rotatable](/Rotatable/Rotatable.gif)
 
