@@ -27,16 +27,9 @@ The protocol extension contains the mechanics for rotating the component. It’s
 
     mutating func rotate(radians radians: CGFloat, animated: Bool = false)
     {
-        if animated
+        UIView.animateWithDuration(animated ? 0.2 : 0.0)
         {
-            UIView.animateWithDuration(0.2)
-            {
-                self.transform = CGAffineTransformMakeRotation(radians)
-            }
-        }
-        else
-        {
-            transform = CGAffineTransformMakeRotation(radians)
+            self.transform = CGAffineTransformMakeRotation(radians)
         }
     }
 
